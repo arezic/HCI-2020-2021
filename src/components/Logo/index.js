@@ -3,7 +3,7 @@ import styles from './style.module.css'
 
 const Logo = () => (
   <section className={styles.logo}>
-      <img src="logo.png"></img>
+      <img src="src/images/logo.png"></img>
   </section>
 )
 
