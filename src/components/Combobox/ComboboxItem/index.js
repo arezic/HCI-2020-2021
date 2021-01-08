@@ -3,9 +3,9 @@ import React from 'react'
 import styles from './style.module.css'
  
 const ComboboxItem = ({text}) => (
-    <div className={styles.comboboxItem}>
+    <li className={styles.comboboxItem}>
         <span>{text}</span>
-    </div>
+    </li>
 )
  
 export default ComboboxItem
